@@ -10,7 +10,8 @@
 		8869274627BE193A0074AE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869274527BE193A0074AE27 /* AppDelegate.swift */; };
 		8869274827BE193A0074AE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869274727BE193A0074AE27 /* ViewController.swift */; };
 		8869274A27BE193A0074AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8869274927BE193A0074AE27 /* Assets.xcassets */; };
-		8869274D27BE193A0074AE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8869274B27BE193A0074AE27 /* Main.storyboard */; };
+		8869275527BE19470074AE27 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869275427BE19470074AE27 /* main.swift */; };
+		8869275727BE19E90074AE27 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869275627BE19E90074AE27 /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +19,9 @@
 		8869274527BE193A0074AE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8869274727BE193A0074AE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8869274927BE193A0074AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8869274C27BE193A0074AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8869274E27BE193A0074AE27 /* toolbarTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = toolbarTest.entitlements; sourceTree = "<group>"; };
+		8869275427BE19470074AE27 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8869275627BE19E90074AE27 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				8869274527BE193A0074AE27 /* AppDelegate.swift */,
+				8869275627BE19E90074AE27 /* SampleView.swift */,
 				8869274727BE193A0074AE27 /* ViewController.swift */,
+				8869275427BE19470074AE27 /* main.swift */,
 				8869274927BE193A0074AE27 /* Assets.xcassets */,
-				8869274B27BE193A0074AE27 /* Main.storyboard */,
 				8869274E27BE193A0074AE27 /* toolbarTest.entitlements */,
 			);
 			path = toolbarTest;
@@ -120,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8869274A27BE193A0074AE27 /* Assets.xcassets in Resources */,
-				8869274D27BE193A0074AE27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +133,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8869275727BE19E90074AE27 /* SampleView.swift in Sources */,
 				8869274827BE193A0074AE27 /* ViewController.swift in Sources */,
 				8869274627BE193A0074AE27 /* AppDelegate.swift in Sources */,
+				8869275527BE19470074AE27 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8869274B27BE193A0074AE27 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8869274C27BE193A0074AE27 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8869274F27BE193A0074AE27 /* Debug */ = {
@@ -278,7 +271,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +297,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

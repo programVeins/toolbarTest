@@ -6,25 +6,23 @@
 //
 
 import Cocoa
+import SwiftUI
 
-@main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     
-
+    private var window: NSWindow?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        window = NSWindow(contentRect: NSMakeRect(0, 0, 1000, 800), styleMask: [.titled, .closable, .resizable, .miniaturizable, .fullSizeContentView],
+                          backing: .buffered,
+                          defer: false)
+        window?.title = "ToolBar"
+        let maincontentView = SampleView().edgesIgnoringSafeArea(.all)
+        window?.contentView = NSHostingView(rootView: maincontentView)
+        window?.makeKeyAndOrderFront(nil)
+        window?.center()
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-    func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
-        return true
-    }
-
 
 }
 
