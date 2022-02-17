@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8869274627BE193A0074AE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869274527BE193A0074AE27 /* AppDelegate.swift */; };
-		8869274827BE193A0074AE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869274727BE193A0074AE27 /* ViewController.swift */; };
 		8869274A27BE193A0074AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8869274927BE193A0074AE27 /* Assets.xcassets */; };
 		8869275527BE19470074AE27 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869275427BE19470074AE27 /* main.swift */; };
 		8869275727BE19E90074AE27 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8869275627BE19E90074AE27 /* SampleView.swift */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		8869274227BE193A0074AE27 /* toolbarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toolbarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8869274527BE193A0074AE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8869274727BE193A0074AE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8869274927BE193A0074AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8869274E27BE193A0074AE27 /* toolbarTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = toolbarTest.entitlements; sourceTree = "<group>"; };
 		8869275427BE19470074AE27 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				8869274527BE193A0074AE27 /* AppDelegate.swift */,
 				8869275627BE19E90074AE27 /* SampleView.swift */,
-				8869274727BE193A0074AE27 /* ViewController.swift */,
 				8869275427BE19470074AE27 /* main.swift */,
 				8869274927BE193A0074AE27 /* Assets.xcassets */,
 				8869274E27BE193A0074AE27 /* toolbarTest.entitlements */,
@@ -134,7 +131,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8869275727BE19E90074AE27 /* SampleView.swift in Sources */,
-				8869274827BE193A0074AE27 /* ViewController.swift in Sources */,
 				8869274627BE193A0074AE27 /* AppDelegate.swift in Sources */,
 				8869275527BE19470074AE27 /* main.swift in Sources */,
 			);
